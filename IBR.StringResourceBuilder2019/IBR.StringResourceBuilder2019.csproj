@@ -21,8 +21,8 @@
     <ProjectGuid>{75B14895-659E-4328-B132-85A1768D0BF2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IBR.StringResourceBuilder2011</RootNamespace>
-    <AssemblyName>IBR.StringResourceBuilder2011</AssemblyName>
+    <RootNamespace>IBR.StringResourceBuilder2019</RootNamespace>
+    <AssemblyName>IBR.StringResourceBuilder2019</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
@@ -88,10 +88,10 @@
     <Compile Include="SRBToolWindow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IBR.StringResourceBuilder2011Package.cs" />
+    <Compile Include="IBR.StringResourceBuilder2019Package.cs" />
   </ItemGroup>
   <ItemGroup>
-    <VSCTCompile Include="GeneratedCode\IBR.StringResourceBuilder2011.vsct">
+    <VSCTCompile Include="GeneratedCode\IBR.StringResourceBuilder2019.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
       <DesignTime>True</DesignTime>
       <SubType>Designer</SubType>
@@ -145,17 +145,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="WindowsBase" />
-  </ItemGroup>
-  <ItemGroup>
-    <COMReference Include="Microsoft.VisualStudio.CommandBars">
-      <Guid>{1CBA492E-7263-47BB-87FE-639000619B15}</Guid>
-      <VersionMajor>8</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>primary</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="GUI\ctlListEditor.xaml">
