@@ -6,7 +6,7 @@
     "Microsoft.VSSDK.Vsixsigntool": "15.0.26606"
   },
   "frameworks": {
-    "net452": {}
+    "net48": {}
   },
   "runtimes": {
     "win": {}
