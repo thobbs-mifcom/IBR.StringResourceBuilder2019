@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Threading;
 using EnvDTE;
 
-namespace IBR.StringResourceBuilder2011.Modules
+namespace IBR.StringResourceBuilder2019.Modules
 {
   public static class ExtensionMethods
   {

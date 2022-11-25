@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace IBR.StringResourceBuilder2011.Modules
+namespace IBR.StringResourceBuilder2019.Modules
 {
   /// <summary>
   /// StringResource class which holds a resource name, string literal and its location.

@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 
 
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
   internal static class CUtil
   {

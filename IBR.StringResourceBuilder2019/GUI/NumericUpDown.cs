@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace IBR.StringResourceBuilder2011.GUI
+namespace IBR.StringResourceBuilder2019.GUI
 {
   public partial class NumericUpDown : Control
   {

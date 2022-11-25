@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IBR.StringResourceBuilder2011")]
+[assembly: AssemblyTitle("IBR.StringResourceBuilder2019")]
 [assembly: AssemblyDescription("Build string resources from literals in code")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("IBR")]
-[assembly: AssemblyProduct("IBR.StringResourceBuilder2011")]
-[assembly: AssemblyCopyright("© 2011-2017 by Ingenieur-Büro Rühmer")]
+[assembly: AssemblyProduct("IBR.StringResourceBuilder2019")]
+[assembly: AssemblyCopyright("© 2019-2017 by Ingenieur-Büro Rühmer")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

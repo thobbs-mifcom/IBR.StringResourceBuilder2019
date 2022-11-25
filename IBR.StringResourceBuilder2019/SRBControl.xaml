@@ -1,5 +1,5 @@
 
-<UserControl x:Class="IBR.StringResourceBuilder2011.SRBControl"
+<UserControl x:Class="IBR.StringResourceBuilder2019.SRBControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 

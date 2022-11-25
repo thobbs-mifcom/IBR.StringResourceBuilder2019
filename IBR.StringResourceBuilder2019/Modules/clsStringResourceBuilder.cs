@@ -15,7 +15,7 @@ using System.Security.AccessControl;
 
 
 
-namespace IBR.StringResourceBuilder2011.Modules
+namespace IBR.StringResourceBuilder2019.Modules
 {
   class StringResourceBuilder
   {

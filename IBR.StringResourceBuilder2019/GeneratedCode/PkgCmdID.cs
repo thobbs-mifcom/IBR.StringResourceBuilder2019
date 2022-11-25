@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
   static class PkgCmdIDList
   {

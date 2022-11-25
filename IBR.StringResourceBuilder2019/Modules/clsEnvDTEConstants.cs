@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IBR.StringResourceBuilder2011.Modules
+namespace IBR.StringResourceBuilder2019.Modules
 {
   internal class EnvDTEConstants
   {

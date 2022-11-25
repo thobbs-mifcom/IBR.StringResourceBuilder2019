@@ -1,12 +1,12 @@
-﻿<Window x:Class="IBR.StringResourceBuilder2011.GUI.SettingsWindow"
+﻿<Window x:Class="IBR.StringResourceBuilder2019.GUI.SettingsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:gi="clr-namespace:GreyableImage"
-        xmlns:my="clr-namespace:IBR.StringResourceBuilder2011.GUI"
+        xmlns:my="clr-namespace:IBR.StringResourceBuilder2019.GUI"
         mc:Ignorable="d"
-        Icon="/IBR.StringResourceBuilder2011;component/Button%20Bitmaps/translator.png"
+        Icon="/IBR.StringResourceBuilder2019;component/Button%20Bitmaps/translator.png"
         Title="String Resource Builder Settings"
         WindowStartupLocation="CenterScreen"
         MinWidth="650"
@@ -124,13 +124,13 @@
     <StackPanel Grid.Row="1" HorizontalAlignment="Right" Orientation="Horizontal" VerticalAlignment="Bottom" Margin="0,0,8,0">
       <Button Height="27" Margin="0,8,8,8" Name="btnOK" VerticalAlignment="Center" Width="89" Click="btnOK_Click" ToolTip="Accept all changes made">
         <StackPanel Orientation="Horizontal">
-          <Image Height="16" Width="16" Source="/IBR.StringResourceBuilder2011;component/Images/bt_apply_shadow.png" Stretch="None" />
+          <Image Height="16" Width="16" Source="/IBR.StringResourceBuilder2019;component/Images/bt_apply_shadow.png" Stretch="None" />
           <TextBlock Text="OK" Margin="4,0,0,0"/>
         </StackPanel>
       </Button>
       <Button Height="27" Margin="0,8,8,8" Name="btnCancel" VerticalAlignment="Center" Width="89" Click="btnCancel_Click" ToolTip="Cancel all changes made">
         <StackPanel Orientation="Horizontal">
-          <Image Height="16" Width="16" Source="/IBR.StringResourceBuilder2011;component/Images/bt_del_shadow.png" Stretch="None" />
+          <Image Height="16" Width="16" Source="/IBR.StringResourceBuilder2019;component/Images/bt_del_shadow.png" Stretch="None" />
           <TextBlock Text="Cancel" Margin="4,0,0,0"/>
         </StackPanel>
       </Button>

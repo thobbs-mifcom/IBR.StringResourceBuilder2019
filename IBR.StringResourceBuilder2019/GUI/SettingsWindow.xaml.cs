@@ -11,7 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace IBR.StringResourceBuilder2011.GUI
+namespace IBR.StringResourceBuilder2019.GUI
 {
   /// <summary>
   /// Interaction logic for SettingsWindow.xaml

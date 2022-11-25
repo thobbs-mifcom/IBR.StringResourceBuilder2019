@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.Shell;
 using System.ComponentModel.Design;
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
 
   /// <summary>
@@ -31,7 +31,7 @@ namespace IBR.StringResourceBuilder2011
       : base(null)
     {
       this.Caption = "SRB";
-      this.ToolBar = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.SRBToolbarMenu);
+      this.ToolBar = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.SRBToolbarMenu);
     }
   } //class
 } //namespace

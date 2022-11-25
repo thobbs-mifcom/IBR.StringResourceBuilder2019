@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
   /// <summary>
   /// This is the class that implements the package exposed by this assembly.
@@ -27,10 +27,10 @@ namespace IBR.StringResourceBuilder2011
   /// </remarks>
   [PackageRegistration(UseManagedResourcesOnly = true)]
   [InstalledProductRegistration("#110", "#112", "1.6", IconResourceID = 400)] // Info on this package for Help/About
-  [Guid(GuidList.guidIBRStringResourceBuilder2011PkgString)]
+  [Guid(GuidList.guidIBRStringResourceBuilder2019PkgString)]
   [ProvideMenuResource("Menus.ctmenu", 1)]  // This attribute is needed to let the shell know that this package exposes some menus.
   [ProvideToolWindow(typeof(SRBToolWindow), Orientation=ToolWindowOrientation.Right, Style=VsDockStyle.Float, MultiInstances = false, Transient = true, PositionX = 100 , PositionY = 100 , Width = 600 , Height = 300 )]
-  public abstract class IBRStringResourceBuilder2011PackageBase : Package
+  public abstract class IBRStringResourceBuilder2019PackageBase : Package
   {
     /// <summary>
     /// Default constructor of the package.
@@ -39,7 +39,7 @@ namespace IBR.StringResourceBuilder2011
     /// not sited yet inside Visual Studio environment. The place to do all the other
     /// initialization is the Initialize method.
     /// </summary>
-    public IBRStringResourceBuilder2011PackageBase()
+    public IBRStringResourceBuilder2019PackageBase()
     {
       Trace.WriteLine($"Entering constructor for: {this.ToString()}");
     }
@@ -66,42 +66,42 @@ namespace IBR.StringResourceBuilder2011
         OleMenuCommand menuItem;
 
         // Create the command for button StringResourceBuilder
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.StringResourceBuilder);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.StringResourceBuilder);
         menuItem = new OleMenuCommand(StringResourceBuilderExecuteHandler, StringResourceBuilderChangeHandler, StringResourceBuilderQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
 
         // Create the command for button Rescan
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.Rescan);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.Rescan);
         menuItem = new OleMenuCommand(RescanExecuteHandler, RescanChangeHandler, RescanQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
 
         // Create the command for button First
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.First);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.First);
         menuItem = new OleMenuCommand(FirstExecuteHandler, FirstChangeHandler, FirstQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
 
         // Create the command for button Previous
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.Previous);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.Previous);
         menuItem = new OleMenuCommand(PreviousExecuteHandler, PreviousChangeHandler, PreviousQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
 
         // Create the command for button Next
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.Next);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.Next);
         menuItem = new OleMenuCommand(NextExecuteHandler, NextChangeHandler, NextQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
 
         // Create the command for button Last
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.Last);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.Last);
         menuItem = new OleMenuCommand(LastExecuteHandler, LastChangeHandler, LastQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
 
         // Create the command for button Make
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.Make);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.Make);
         menuItem = new OleMenuCommand(MakeExecuteHandler, MakeChangeHandler, MakeQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
 
         // Create the command for button Settings
-        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2011CmdSet, (int)PkgCmdIDList.Settings);
+        commandId = new CommandID(GuidList.guidIBRStringResourceBuilder2019CmdSet, (int)PkgCmdIDList.Settings);
         menuItem = new OleMenuCommand(SettingsExecuteHandler, SettingsChangeHandler, SettingsQueryStatusHandler, commandId);
         mcs.AddCommand(menuItem);
       } //if
@@ -277,7 +277,7 @@ namespace IBR.StringResourceBuilder2011
       Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(uiShell.ShowMessageBox(
              0,
              ref clsid,
-             "IBR.StringResourceBuilder2011",
+             "IBR.StringResourceBuilder2019",
              string.Format(CultureInfo.CurrentCulture, message, this.ToString()),
              string.Empty,
              0,

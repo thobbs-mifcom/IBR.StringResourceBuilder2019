@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 using EnvDTE;
 using EnvDTE80;
 
-using IBR.StringResourceBuilder2011.Modules;
+using IBR.StringResourceBuilder2019.Modules;
 
 
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
   /// <summary>
   /// Interaction logic for SRBControl.xaml

@@ -30,14 +30,14 @@
       This section uses a Guid to identify the package that provides the command defined inside it. -->
   <Commands package="guidPackage">
     <Groups>
-      <Group guid="guidIBRStringResourceBuilder2011CommandSet" id="RefreshGroup" priority="0x0100"/>
-      <Group guid="guidIBRStringResourceBuilder2011CommandSet" id="NavigationGroup" priority="0x0101"/>
-      <Group guid="guidIBRStringResourceBuilder2011CommandSet" id="MakeGroup" priority="0x0102"/>
-      <Group guid="guidIBRStringResourceBuilder2011CommandSet" id="SettingsGroup" priority="0x0103"/>
+      <Group guid="guidIBRStringResourceBuilder2019CommandSet" id="RefreshGroup" priority="0x0100"/>
+      <Group guid="guidIBRStringResourceBuilder2019CommandSet" id="NavigationGroup" priority="0x0101"/>
+      <Group guid="guidIBRStringResourceBuilder2019CommandSet" id="MakeGroup" priority="0x0102"/>
+      <Group guid="guidIBRStringResourceBuilder2019CommandSet" id="SettingsGroup" priority="0x0103"/>
     </Groups>
 
     <Buttons>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="StringResourceBuilder" priority="0x0100">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="StringResourceBuilder" priority="0x0100">
         <Icon guid="translator.bmpGuid" id="translator.bmpId" />
         <Strings>
         <CommandName>cmdidStringResourceBuilder</CommandName>
@@ -46,7 +46,7 @@
         <ToolTipText>Build resource from string literals</ToolTipText>
         </Strings>
       </Button>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="Rescan" priority="0x0100">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="Rescan" priority="0x0100">
         <Icon guid="refresh.bmpGuid" id="refresh.bmpId" />
         <Strings>
         <CommandName>cmdidRescan</CommandName>
@@ -55,7 +55,7 @@
         <ToolTipText>Rescan the current source file</ToolTipText>
         </Strings>
       </Button>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="First" priority="0x0100">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="First" priority="0x0100">
         <Icon guid="ArrowLeftEnd_light.bmpGuid" id="ArrowLeftEnd_light.bmpId" />
         <Strings>
         <CommandName>cmdidFirst</CommandName>
@@ -64,7 +64,7 @@
         <ToolTipText>Goto first string literal</ToolTipText>
         </Strings>
       </Button>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="Previous" priority="0x0101">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="Previous" priority="0x0101">
         <Icon guid="ArrowLeft_light.bmpGuid" id="ArrowLeft_light.bmpId" />
         <Strings>
         <CommandName>cmdidPrevious</CommandName>
@@ -73,7 +73,7 @@
         <ToolTipText>Goto previous string literal</ToolTipText>
         </Strings>
       </Button>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="Next" priority="0x0102">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="Next" priority="0x0102">
         <Icon guid="ArrowRight_light.bmpGuid" id="ArrowRight_light.bmpId" />
         <Strings>
         <CommandName>cmdidNext</CommandName>
@@ -82,7 +82,7 @@
         <ToolTipText>Goto next string literal</ToolTipText>
         </Strings>
       </Button>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="Last" priority="0x0103">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="Last" priority="0x0103">
         <Icon guid="ArrowRightEnd_light.bmpGuid" id="ArrowRightEnd_light.bmpId" />
         <Strings>
         <CommandName>cmdidLast</CommandName>
@@ -91,7 +91,7 @@
         <ToolTipText>Goto last string literal</ToolTipText>
         </Strings>
       </Button>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="Make" priority="0x0100">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="Make" priority="0x0100">
         <Icon guid="StringResource.bmpGuid" id="StringResource.bmpId" />
         <Strings>
         <CommandName>cmdidMake</CommandName>
@@ -100,7 +100,7 @@
         <ToolTipText>Make resource entry from selected string literal</ToolTipText>
         </Strings>
       </Button>
-      <Button guid="guidIBRStringResourceBuilder2011CommandSet" id="Settings" priority="0x0100">
+      <Button guid="guidIBRStringResourceBuilder2019CommandSet" id="Settings" priority="0x0100">
         <Icon guid="settings.bmpGuid" id="settings.bmpId" />
         <Strings>
         <CommandName>cmdidSettings</CommandName>
@@ -112,7 +112,7 @@
     </Buttons>
 
     <Menus>
-      <Menu guid="guidIBRStringResourceBuilder2011CommandSet" id="SRBToolbarMenu" type="ToolWindowToolbar" priority="0x0100">
+      <Menu guid="guidIBRStringResourceBuilder2019CommandSet" id="SRBToolbarMenu" type="ToolWindowToolbar" priority="0x0100">
         <Strings>
         <CommandName>SRBToolbarMenu</CommandName>
         <ButtonText>SRBToolbarMenu</ButtonText>
@@ -135,41 +135,41 @@
   </Commands>
 
   <CommandPlacements>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="StringResourceBuilder" priority="0x0100">
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="StringResourceBuilder" priority="0x0100">
       <Parent guid="guidSHLMainMenu" id="IDG_VS_TOOLS_CMDLINE" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="Rescan" priority="0x0100">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="RefreshGroup" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="Rescan" priority="0x0100">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="RefreshGroup" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="First" priority="0x0100">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="NavigationGroup" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="First" priority="0x0100">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="NavigationGroup" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="Previous" priority="0x0101">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="NavigationGroup" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="Previous" priority="0x0101">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="NavigationGroup" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="Next" priority="0x0102">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="NavigationGroup" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="Next" priority="0x0102">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="NavigationGroup" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="Last" priority="0x0103">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="NavigationGroup" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="Last" priority="0x0103">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="NavigationGroup" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="Make" priority="0x0100">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="MakeGroup" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="Make" priority="0x0100">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="MakeGroup" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="Settings" priority="0x0100">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="SettingsGroup" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="Settings" priority="0x0100">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="SettingsGroup" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="RefreshGroup" priority="0x0100">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="SRBToolbarMenu" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="RefreshGroup" priority="0x0100">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="SRBToolbarMenu" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="NavigationGroup" priority="0x0101">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="SRBToolbarMenu" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="NavigationGroup" priority="0x0101">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="SRBToolbarMenu" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="MakeGroup" priority="0x0102">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="SRBToolbarMenu" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="MakeGroup" priority="0x0102">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="SRBToolbarMenu" />
     </CommandPlacement>
-    <CommandPlacement guid="guidIBRStringResourceBuilder2011CommandSet" id="SettingsGroup" priority="0x0103">
-      <Parent guid="guidIBRStringResourceBuilder2011CommandSet" id="SRBToolbarMenu" />
+    <CommandPlacement guid="guidIBRStringResourceBuilder2019CommandSet" id="SettingsGroup" priority="0x0103">
+      <Parent guid="guidIBRStringResourceBuilder2019CommandSet" id="SRBToolbarMenu" />
     </CommandPlacement>
   </CommandPlacements>
 
@@ -178,7 +178,7 @@
     <GuidSymbol name="guidPackage" value="{788306c7-3cd5-4cf2-840c-04a723620ba0}" />
 
     <!-- This is the guid used to group the menu commands together -->
-    <GuidSymbol name="guidIBRStringResourceBuilder2011CommandSet" value="{731646bc-3737-4a6e-83ec-6c9a4e505153}">
+    <GuidSymbol name="guidIBRStringResourceBuilder2019CommandSet" value="{731646bc-3737-4a6e-83ec-6c9a4e505153}">
       <IDSymbol name="RefreshGroup" value="0x0009" />
       <IDSymbol name="NavigationGroup" value="0x000B" />
       <IDSymbol name="MakeGroup" value="0x0011" />

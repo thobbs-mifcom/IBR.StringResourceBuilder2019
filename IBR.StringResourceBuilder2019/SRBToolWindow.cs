@@ -13,7 +13,7 @@ using Microsoft.VisualStudio.Shell.Interop;
 
 
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
   /// <summary>
   /// This class implements the tool window SRBToolWindow exposed by this package and hosts a user control.
@@ -34,7 +34,7 @@ namespace IBR.StringResourceBuilder2011
     {
       Trace.WriteLine($"Entering constructor for: {this.ToString()}");
 
-      this.Caption = IBR.StringResourceBuilder2011.Properties.Resources.ToolWindowTitle;
+      this.Caption = IBR.StringResourceBuilder2019.Properties.Resources.ToolWindowTitle;
 
       // Set the image that will appear on the tab of the window frame when docked with another window.
       // The resource ID correspond to the one defined in the ResX file while the Index is the offset

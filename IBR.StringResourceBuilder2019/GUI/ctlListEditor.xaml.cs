@@ -15,7 +15,7 @@ using System.ComponentModel;
 using System.Windows.Markup;
 using System.Collections.Specialized;
 
-namespace IBR.StringResourceBuilder2011.GUI
+namespace IBR.StringResourceBuilder2019.GUI
 {
   /// <summary>
   /// Interaction logic for ctlListEditor.xaml

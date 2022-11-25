@@ -15,22 +15,22 @@ using Microsoft.VisualStudio.Shell.Interop;
 
 
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
-  //these attributes have been copied from base class (IBRStringResourceBuilder2011PackageBase) so that VS can use them
+  //these attributes have been copied from base class (IBRStringResourceBuilder2019PackageBase) so that VS can use them
   [InstalledProductRegistration("#110", "#112", "1.6", IconResourceID = 400)] // Info on this package for Help/About
-  [Guid(GuidList.guidIBRStringResourceBuilder2011PkgString)]
-  public class IBRStringResourceBuilder2011Package : IBRStringResourceBuilder2011PackageBase
+  [Guid(GuidList.guidIBRStringResourceBuilder2019PkgString)]
+  public class IBRStringResourceBuilder2019Package : IBRStringResourceBuilder2019PackageBase
   {
     #region Constructor
 
-    static IBRStringResourceBuilder2011Package()
+    static IBRStringResourceBuilder2019Package()
     {
       //if (m_Dte == null)
       //  m_Dte = (DTE)GetGlobalService(typeof(DTE));
     }
 
-    //public IBRStringResourceBuilder2011Package()
+    //public IBRStringResourceBuilder2019Package()
     //  : base()
     //{
     //}

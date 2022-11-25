@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 
 
-namespace IBR.StringResourceBuilder2011
+namespace IBR.StringResourceBuilder2019
 {
   [Serializable]
   public class Settings
