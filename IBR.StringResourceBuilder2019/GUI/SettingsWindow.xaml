@@ -88,7 +88,7 @@
                                     <TextBlock VerticalAlignment="Center" Text=" (leave blank for the standard global resource file)" />
                                 </StackPanel>
                             </CheckBox>
-                            <CheckBox x:Name="chkUseFormNamePrefixInStringName" Content="Prefix string name with Form Name"/>
+                            <CheckBox Margin="20,0,0,8" x:Name="chkUseFormNamePrefixInStringName" Content="Prefix string name with Form Name" IsEnabled="{Binding IsChecked, ElementName=cbUseGlobalResourceFile}"/>
                             <CheckBox Margin="20,0,0,8" x:Name="cbDontUseResourceAlias" IsEnabled="{Binding IsChecked, ElementName=cbUseGlobalResourceFile}">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock VerticalAlignment="Center" Text="Don't use resource alias like  " />

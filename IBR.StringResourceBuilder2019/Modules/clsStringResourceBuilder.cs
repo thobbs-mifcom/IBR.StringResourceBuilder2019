@@ -457,6 +457,12 @@ namespace IBR.StringResourceBuilder2019.Modules
         StringResource stringResource = m_SelectedStringResource;// this.dataGrid1.CurrentItem as StringResource;
 
         name = stringResource.Name;
+
+        if (m_Settings.PrefixFormNameInStringName)
+        {
+            name = System.IO.Path.GetFileNameWithoutExtension(m_Window.ProjectItem.Name) + "_" + name;
+        }
+
         value = stringResource.Text;
 
         if (!m_IsCSharp || (m_TextDocument.Selection.Text.Length > 0) && (m_TextDocument.Selection.Text[0] == '@'))
