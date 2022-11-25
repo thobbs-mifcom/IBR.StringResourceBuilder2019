@@ -7,7 +7,7 @@
     <VsixType>v3</VsixType>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>IBR_CodeSigning.pfx</AssemblyOriginatorKeyFile>
