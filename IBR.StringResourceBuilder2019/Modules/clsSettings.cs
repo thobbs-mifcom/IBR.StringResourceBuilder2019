@@ -71,6 +71,13 @@ namespace IBR.StringResourceBuilder2019
       set { m_IsUseGlobalResourceFile = value; }
     }
 
+    private bool m_PrefixFormNameInStringName /*= false*/;
+    public bool PrefixFormNameInStringName
+        {
+        get { return (m_PrefixFormNameInStringName); }
+        set { m_PrefixFormNameInStringName = value; }
+    }
+
     private string m_GlobalResourceFileName = "SRB_Strings";
     public string GlobalResourceFileName
     {

@@ -36,6 +36,7 @@ namespace IBR.StringResourceBuilder2019.GUI
       this.cbIgnoreNumberStrings.IsChecked          = m_Settings.IsIgnoreNumberStrings;
       this.cbIgnoreVerbatimStrings.IsChecked        = m_Settings.IsIgnoreVerbatimStrings;
       this.cbUseGlobalResourceFile.IsChecked        = m_Settings.IsUseGlobalResourceFile;
+      this.chkUseFormNamePrefixInStringName.IsChecked = m_Settings.PrefixFormNameInStringName;
       this.txtGlobalResourceFileName.Text           = m_Settings.GlobalResourceFileName;
       this.cbDontUseResourceAlias.IsChecked         = m_Settings.IsDontUseResourceAlias;
 
@@ -111,6 +112,14 @@ namespace IBR.StringResourceBuilder2019.GUI
       m_Settings.IsIgnoreNumberStrings     = this.cbIgnoreNumberStrings.IsChecked ?? false;
       m_Settings.IsIgnoreVerbatimStrings   = this.cbIgnoreVerbatimStrings.IsChecked ?? false;
       m_Settings.IsUseGlobalResourceFile   = this.cbUseGlobalResourceFile.IsChecked ?? false;
+      if (m_Settings.IsUseGlobalResourceFile)
+      {
+        m_Settings.PrefixFormNameInStringName = this.chkUseFormNamePrefixInStringName.IsChecked ?? false;
+      }
+      else
+      {
+        m_Settings.PrefixFormNameInStringName = false;
+      }
       m_Settings.GlobalResourceFileName    = (this.txtGlobalResourceFileName.Text ?? string.Empty).Trim();
       m_Settings.IsDontUseResourceAlias    = this.cbDontUseResourceAlias.IsChecked ?? false;
 
