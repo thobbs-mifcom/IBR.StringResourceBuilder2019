@@ -1,10 +1,12 @@
 # IBR.StringResourceBuilder2019
 
-## This is a update of IBR.StringResourceBuilder2011 to bring it into VisualStudio 2019
-There are big differences between VS 2019 and VS 2022 when it comes to Extensions.
+## This Fork is an update of IBR.StringResourceBuilder2011 to bring it into VisualStudio 2019
+There are big differences between VS 2019 and VS 2022 when it comes to Extensions, hench this 2019 version.
+
 Since I do not have the Key files (they are understandably not in the repo) I cannot publish this updated Extension to Microsoft.
 But you should be able to build and run it with Visual Studio 2019. Since you can open a VS 2022 Solution in VS 2019 you can then use this tool on your 2022 solution.
 
+**You can now use the Name of the form as a prefix for the string names. This is very useful if you are using one central resource file per project (e.g. if you want to later support mulitple languages)**
 
 The String Resource Builder is a Visual Studio (VS) extension to extract string literals (C#, VB.NET) from source code into resource files (ResX).
 
